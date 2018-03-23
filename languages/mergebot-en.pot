@@ -1,0 +1,778 @@
+# Mergebot Pot File.
+# Copyright (C) 2018
+# This file is distributed under the same license as the mergebot package.
+# Delicious Brains <nom@deliciousbrains.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mergebot\n"
+"Report-Msgid-Bugs-To: nom@deliciousbrains.com\n"
+"POT-Creation-Date: 2018-03-23 10:50+0000\n"
+"PO-Revision-Date: 2018-03-23 10:50+GMT\n"
+"Last-Translator: Delicious Brains <nom@deliciousbrains.com>\n"
+"Language-Team: English <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: includes/app/api/api.php:369
+msgid "No API key supplied"
+msgstr ""
+
+#: includes/app/api/api.php:397
+#, php-format
+msgid "API returned code %s, %s"
+msgstr ""
+
+#: includes/cli/cli-changeset.php:36
+#: includes/cli/cli-site.php:59
+#: includes/cli/cli-site.php:126
+msgid "Site not connected"
+msgstr ""
+
+#: includes/cli/cli-changeset.php:45
+msgid "No open changeset"
+msgstr ""
+
+#: includes/cli/cli-changeset.php:50
+msgid "Could not reject changeset"
+msgstr ""
+
+#: includes/cli/cli-changeset.php:53
+#, php-format
+msgid "Changeset #%s rejected"
+msgstr ""
+
+#: includes/cli/cli-recordings.php:53
+msgid "Invalid mode for recording queries"
+msgstr ""
+
+#: includes/cli/cli-recordings.php:74
+msgid "Already recording"
+msgstr ""
+
+#: includes/cli/cli-recordings.php:80
+#: includes/cli/cli-recordings.php:123
+msgid "Recording"
+msgstr ""
+
+#: includes/cli/cli-recordings.php:85
+msgid "Error turning on recording"
+msgstr ""
+
+#: includes/cli/cli-recordings.php:106
+msgid "Recording off"
+msgstr ""
+
+#: includes/cli/cli-recordings.php:125
+msgid "Not recording"
+msgstr ""
+
+#: includes/cli/cli-schemas.php:66
+msgid "Schema cache primed!"
+msgstr ""
+
+#: includes/cli/cli-site.php:64
+msgid "Site disconnected!"
+msgstr ""
+
+#: includes/cli/cli-site.php:79
+msgid "Site already connected"
+msgstr ""
+
+#: includes/cli/cli-site.php:85
+msgid "Site argument is required"
+msgstr ""
+
+#: includes/cli/cli-site.php:92
+msgid "No production sites connected"
+msgstr ""
+
+#: includes/cli/cli-site.php:104
+#, php-format
+msgid "Production site %s not connected"
+msgstr ""
+
+#: includes/cli/cli-site.php:112
+msgid "No teams"
+msgstr ""
+
+#: includes/cli/cli-site.php:117
+msgid "Team not found"
+msgstr ""
+
+#: includes/cli/cli-site.php:133
+msgid "Site connected!"
+msgstr ""
+
+#: includes/compatibility.php:59
+#, php-format
+msgid "PHP version %s+"
+msgstr ""
+
+#: includes/compatibility.php:63
+msgid "its <code>vendor</code> directory, which is missing"
+msgstr ""
+
+#: includes/jobs/abstract-job.php:286
+#: includes/utils/cron.php:54
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: includes/jobs/abstract-job.php:381
+msgid "Try Again"
+msgstr ""
+
+#: includes/jobs/send-queries.php:109
+msgid "Query Error"
+msgstr ""
+
+#: includes/jobs/send-queries.php:110
+msgid "Could not send query to the app"
+msgstr ""
+
+#: includes/jobs/send-queries.php:189
+msgid "App Communication Error"
+msgstr ""
+
+#: includes/jobs/send-queries.php:189
+msgid "Could not send queries to the app."
+msgstr ""
+
+#: includes/jobs/send-queries.php:203
+msgid "App Query Processing Error"
+msgstr ""
+
+#: includes/jobs/send-queries.php:204
+#, php-format
+msgid "The app could not process query %s."
+msgstr ""
+
+#: includes/models/abstract-database-model.php:210
+#, php-format
+msgid "Insert to %s failed"
+msgstr ""
+
+#: includes/models/abstract-database-model.php:256
+#, php-format
+msgid "Update to %s failed"
+msgstr ""
+
+#: includes/models/app-changeset.php:169
+#, php-format
+msgid "Could not get the changeset #%s"
+msgstr ""
+
+#: includes/models/plugin.php:100
+msgid "You must define your API key in your wp-config.php file."
+msgstr ""
+
+#: includes/models/plugin.php:106
+#, php-format
+msgid ""
+"You must define a valid plugin mode ('%s' or '%s') in your wp-config.php "
+"file."
+msgstr ""
+
+#: includes/models/plugin.php:357
+msgid "More&nbsp;info"
+msgstr ""
+
+#: includes/providers/modes/abstract-mode.php:165
+msgid "row"
+msgid_plural "rows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/providers/modes/development.php:199
+#: includes/providers/modes/development.php:274
+msgid ""
+"You cannot record queries as the site has an incompatible database class."
+msgstr ""
+
+#: includes/providers/modes/development.php:208
+#: includes/providers/modes/development.php:282
+#, php-format
+msgid "%s Database Issue"
+msgstr ""
+
+#: includes/providers/modes/development.php:234
+msgid "deactivate the plugin"
+msgstr ""
+
+#: includes/providers/modes/development.php:235
+#: includes/utils/support.php:54
+msgid "contact support"
+msgstr ""
+
+#: includes/providers/modes/development.php:236
+#, php-format
+msgid "To continue using Mergebot %s or please %s."
+msgstr ""
+
+#: includes/providers/modes/development.php:298
+msgid "Click here to troubleshoot"
+msgstr ""
+
+#: includes/providers/modes/development.php:304
+msgid "MU Plugin Issue"
+msgstr ""
+
+#: includes/providers/modes/development.php:340
+#, php-format
+msgid ""
+"It looks like you have plugins installed that use custom tables. You can map "
+"these tables in the app.%s"
+msgstr ""
+
+#: includes/providers/modes/development.php:341
+#, php-format
+msgid "%s Custom Tables"
+msgstr ""
+
+#: includes/providers/modes/development.php:414
+#, php-format
+msgid ""
+"It looks like there are no production sites for this site to connect to.%s"
+msgstr ""
+
+#: includes/providers/modes/development.php:415
+msgid "No Production Sites"
+msgstr ""
+
+#: includes/providers/modes/development.php:432
+#, php-format
+msgid ""
+"Mergebot's recording has been disabled as there is an issue with a query "
+"being sent to the app, %s"
+msgstr ""
+
+#: includes/providers/modes/development.php:434
+msgid "Mergebot Disabled"
+msgstr ""
+
+#: includes/services/admin/admin-handler.php:60
+#, php-format
+msgid "%s Plugin Setup"
+msgstr ""
+
+#: includes/services/admin/admin-handler.php:87
+msgid "Visit settings"
+msgstr ""
+
+#: includes/services/admin/admin-handler.php:88
+#, php-format
+msgid "Finishing off setting up the plugin. %s"
+msgstr ""
+
+#: includes/services/admin/notice-handler.php:66
+msgid "There was an error dismissing the notice."
+msgstr ""
+
+#: includes/services/admin/notice-handler.php:79
+msgid "Cheating eh?"
+msgstr ""
+
+#: includes/services/admin/notice-handler.php:83
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/services/admin/notice-handler.php:89
+msgid "Invalid notice ID."
+msgstr ""
+
+#: includes/services/admin/notice-presenter.php:193
+msgid "Error dismissing notice."
+msgstr ""
+
+#: includes/services/admin/page-presenter.php:103
+#, php-format
+msgid ""
+"%1$s only runs at the Network Admin level. As there is no Tools menu in the "
+"Network Admin, the %2$s menu item is located under Settings."
+msgstr ""
+
+#: includes/services/admin/page-presenter.php:168
+msgid "Are you sure you want to discard all changes?"
+msgstr ""
+
+#: includes/services/admin/page-presenter.php:185
+msgid "Settings"
+msgstr ""
+
+#: includes/services/admin/plugin-installer.php:138
+msgid "Update"
+msgstr ""
+
+#: includes/services/admin/plugin-installer.php:143
+#, php-format
+msgid "%s Update Required"
+msgstr ""
+
+#: includes/services/admin/plugin-installer.php:144
+#, php-format
+msgid "The API has changed and requires version %s of the plugin."
+msgstr ""
+
+#: includes/services/admin/settings-handler.php:301
+msgid "Cheatin' eh?"
+msgstr ""
+
+#: includes/services/app-interface.php:83
+#, php-format
+msgid "Method %s does not exist"
+msgstr ""
+
+#: includes/services/app-interface.php:149
+msgid "Try again"
+msgstr ""
+
+#: includes/services/app-interface.php:150
+#, php-format
+msgid "Could not connect to the Mergebot API. %s."
+msgstr ""
+
+#: includes/services/app-interface.php:155
+msgid "Mergebot API Issue"
+msgstr ""
+
+#: includes/services/app-interface.php:215
+msgid "Invalid API key, please check the key you copied from the app."
+msgstr ""
+
+#: includes/services/app-interface.php:216
+msgid "Mergebot API Key"
+msgstr ""
+
+#: includes/services/app-interface.php:242
+msgid "View Plans"
+msgstr ""
+
+#: includes/services/app-interface.php:247
+msgid "You will need to subscribe to a billing plan in the app."
+msgstr ""
+
+#: includes/services/app-interface.php:248
+msgid "Mergebot Subscription Required"
+msgstr ""
+
+#: includes/services/changeset-deployer.php:108
+#, php-format
+msgid "Changeset %s not found in plugin."
+msgstr ""
+
+#: includes/services/changeset-deployer.php:116
+msgid "Deployment Generation Error"
+msgstr ""
+
+#: includes/services/changeset-deployer.php:166
+#, php-format
+msgid "There was an error sending the conflict data for the Changeset %s."
+msgstr ""
+
+#: includes/services/changeset-deployer.php:215
+msgid "The app failed to generate the deployment"
+msgstr ""
+
+#: includes/services/changeset-handler.php:82
+#, php-format
+msgid "Changeset #%s has been rejected"
+msgstr ""
+
+#: includes/services/changeset-handler.php:83
+msgid "Changeset Rejected"
+msgstr ""
+
+#: includes/services/changeset-handler.php:132
+#, php-format
+msgid "Could not set changeset #%s status as %s on the app"
+msgstr ""
+
+#: includes/services/changeset-handler.php:223
+msgid "Development Site Issues"
+msgstr ""
+
+#: includes/services/changeset-handler.php:224
+msgid ""
+"We've disabled Apply Changeset because there are issues with the Development "
+"site."
+msgstr ""
+
+#: includes/services/changeset-synchronizer.php:201
+#, php-format
+msgid "There was an error generating the deployment for Changeset %s."
+msgstr ""
+
+#: includes/services/changeset-synchronizer.php:205
+#, php-format
+msgid "Changeset %s cannot be deployed as it has been rejected."
+msgstr ""
+
+#: includes/services/changeset-synchronizer.php:209
+#, php-format
+msgid "Changeset %s cannot be deployed as it has already been deployed on %s."
+msgstr ""
+
+#: includes/services/changeset-synchronizer.php:213
+#, php-format
+msgid ""
+"Changeset %s cannot be deployed as there are issues on the Development site."
+msgstr ""
+
+#: includes/services/deployment-agent.php:158
+#, php-format
+msgid "Could not create deployment script directory: %s"
+msgstr ""
+
+#: includes/services/deployment-agent.php:163
+msgid "Directory Issue"
+msgstr ""
+
+#: includes/services/deployment-agent.php:290
+#, php-format
+msgid "Changeset #%s has been successfully deployed"
+msgstr ""
+
+#: includes/services/deployment-agent.php:291
+msgid "Deployment Success"
+msgstr ""
+
+#: includes/services/deployment-agent.php:324
+msgid "Deployment Failed"
+msgstr ""
+
+#: includes/services/deployment-agent.php:350
+msgid "Could not get deployment script from the app"
+msgstr ""
+
+#: includes/services/deployment-agent.php:407
+msgid "No query lines in SQL script"
+msgstr ""
+
+#: includes/services/deployment-agent.php:457
+msgid "SQL query execution failed"
+msgstr ""
+
+#: includes/services/deployment-agent.php:480
+msgid "Maximum execution time reached"
+msgstr ""
+
+#: includes/services/deployment-agent.php:493
+msgid "Memory usage exceeded"
+msgstr ""
+
+#: includes/services/deployment-agent.php:549
+msgid "Could not get last SELECT row data"
+msgstr ""
+
+#: includes/services/deployment-agent.php:564
+msgid "Could not get last INSERT ID from query"
+msgstr ""
+
+#: includes/services/deployment-agent.php:673
+#, php-format
+msgid "Could not download deployment script from the app: %s"
+msgstr ""
+
+#: includes/services/deployment-agent.php:689
+msgid "Downloaded deployment script unzip failure"
+msgstr ""
+
+#: includes/services/deployment-agent.php:701
+msgid "Downloaded deployment script different to original"
+msgstr ""
+
+#: includes/services/deployment-agent.php:710
+msgid "Uable to write script to local file"
+msgstr ""
+
+#: includes/services/deployment-agent.php:744
+msgid "Downloaded deployment script file does not exist"
+msgstr ""
+
+#: includes/services/deployment-agent.php:765
+msgid "Changeset already deployed"
+msgstr ""
+
+#: includes/services/deployment-agent.php:769
+msgid "Deployment did not contain internal ID option INSERT"
+msgstr ""
+
+#: includes/services/deployment-inserts-sender.php:117
+msgid "Deployment Inserts Error"
+msgstr ""
+
+#: includes/services/deployment-inserts-sender.php:118
+#, php-format
+msgid "Could not send INSERT IDs after deployment for changeset %s to the app."
+msgstr ""
+
+#: includes/services/development/basic-auth-handler.php:92
+msgid "below"
+msgstr ""
+
+#: includes/services/development/basic-auth-handler.php:95
+msgid "here"
+msgstr ""
+
+#: includes/services/development/basic-auth-handler.php:101
+#, php-format
+msgid ""
+"As the site is protected by basic auth, some features of the plugin won't "
+"work. Please enter your credentials %s."
+msgstr ""
+
+#: includes/services/development/basic-auth-handler.php:102
+#, php-format
+msgid "%s Basic Authentication"
+msgstr ""
+
+#: includes/services/development/changeset-handler.php:69
+msgid ""
+"We've disabled Apply Changeset because there was an error sending a query to "
+"the app."
+msgstr ""
+
+#: includes/services/development/changeset-handler.php:71
+msgid "Query Processing Failure"
+msgstr ""
+
+#: includes/services/development/changeset-handler.php:74
+msgid "Database Refresh Needed"
+msgstr ""
+
+#: includes/services/development/changeset-handler.php:78
+msgid ""
+"We've disabled Apply Changeset because you've already applied it. This site "
+"is up-to-date with the current changeset"
+msgstr ""
+
+#: includes/services/development/changeset-handler.php:85
+msgid "Recording Queries On"
+msgstr ""
+
+#: includes/services/development/changeset-handler.php:85
+msgid "The changeset cannot be applied whilst still recording changes."
+msgstr ""
+
+#: includes/services/development/changeset-handler.php:90
+msgid ""
+"We've disabled Apply Changeset because this site has recorded some new "
+"changes. If you refresh this site with the latest live database you'll be "
+"able to apply the changeset."
+msgstr ""
+
+#: includes/services/development/mu-plugin-installer.php:118
+#, php-format
+msgid "There was an issue with the %s directory."
+msgstr ""
+
+#: includes/services/development/mu-plugin-installer.php:122
+msgid "There was an issue copying the MU plugin."
+msgstr ""
+
+#: includes/services/development/query-recorder.php:207
+msgid "Cannot determine table in INSERT question for query"
+msgstr ""
+
+#: includes/services/development/query-responder.php:118
+#, php-format
+msgid "Could not get insert_id for query #%s"
+msgstr ""
+
+#: includes/services/development/recorder-handler.php:130
+msgid "App Communication Issue"
+msgstr ""
+
+#: includes/services/development/recorder-handler.php:131
+msgid ""
+"There was an issue telling the app that you are recording, make sure to turn "
+"off recording before deploying to Production."
+msgstr ""
+
+#: includes/services/development/recorder-handler.php:224
+msgid "User cannot perform a recording"
+msgstr ""
+
+#: includes/services/development/recorder-handler.php:234
+msgid "There was an error starting recording"
+msgstr ""
+
+#: includes/services/development/recorder-presenter.php:149
+msgid "Start recording queries"
+msgstr ""
+
+#: includes/services/development/recorder-presenter.php:150
+msgid "Stop recording queries"
+msgstr ""
+
+#: includes/services/development/recorder-presenter.php:151
+msgid "An error occurred attempting to turn on query recording"
+msgstr ""
+
+#: includes/services/development/recorder-presenter.php:152
+msgid "An error occurred attempting to turn off query recording"
+msgstr ""
+
+#: includes/services/development/recorder-presenter.php:171
+#, php-format
+msgid "%s Large Changeset"
+msgstr ""
+
+#: includes/services/development/recorder-presenter.php:174
+msgid ""
+"Your changeset has a very large number of queries and will probably take a "
+"long time to deploy."
+msgstr ""
+
+#: includes/services/development/recorder-reminder.php:176
+msgid "User cannot dismiss popup"
+msgstr ""
+
+#: includes/services/development/schema-handler.php:207
+#, php-format
+msgid "Unique meta table %s has multiple keys defined"
+msgstr ""
+
+#: includes/services/development/sql-creator.php:69
+msgid "Error creating SQL statement"
+msgstr ""
+
+#: includes/services/development/sql-parser.php:38
+msgid "Error parsing SQL statement"
+msgstr ""
+
+#: includes/services/development/wpdb-switcher.php:120
+msgid ""
+"Please turn off the database caching setting to continue using Mergebot."
+msgstr ""
+
+#: includes/services/development/wpdb-switcher.php:122
+msgid "Turn off"
+msgstr ""
+
+#: includes/services/site-register.php:193
+msgid "Check Again"
+msgstr ""
+
+#: includes/services/site-register.php:194
+msgid "disconnect"
+msgstr ""
+
+#: includes/services/site-register.php:195
+msgid "upgrade"
+msgstr ""
+
+#: includes/services/site-register.php:202
+msgid "Site Limit Reached"
+msgstr ""
+
+#: includes/utils/support.php:56
+#, php-format
+msgid "Please %s."
+msgstr ""
+
+#: includes/utils/support.php:75
+msgid "Error #"
+msgstr ""
+
+#: views/admin.php:12
+#, php-format
+msgid "Connected to %s"
+msgstr ""
+
+#: views/app.php:9
+msgid "Current Changeset ID"
+msgstr ""
+
+#: views/app.php:13
+msgid "Total Queries"
+msgstr ""
+
+#: views/app.php:26
+msgid "Discard all the queries in the changeset"
+msgstr ""
+
+#: views/app.php:26
+msgid "Discard All Changes"
+msgstr ""
+
+#: views/app.php:30
+msgid "View queries in the changeset"
+msgstr ""
+
+#: views/app.php:30
+msgid "View Queries"
+msgstr ""
+
+#: views/basic-auth.php:11
+msgid "Save"
+msgstr ""
+
+#: views/compatibility-notice.php:4
+msgid "deactivate"
+msgstr ""
+
+#: views/compatibility-notice.php:5
+#, php-format
+msgid ""
+"Mergebot plugin disabled as it requires %s. You can %s the plugin to remove "
+"this notice."
+msgstr ""
+
+#: views/notice.php:21
+msgid "Hide"
+msgstr ""
+
+#: views/notice.php:21
+msgid "Show"
+msgstr ""
+
+#: views/recorder-reminder-popup.php:3
+msgid "Whoa, we just detected some queries that could have been recorded."
+msgstr ""
+
+#: views/recorder-reminder-popup.php:5
+msgid "Record them and turn on recording"
+msgstr ""
+
+#: views/recorder-reminder-popup.php:6
+msgid "Ignore them and dismiss"
+msgstr ""
+
+#: views/settings.php:9
+msgid "Production Site"
+msgstr ""
+
+#: views/settings.php:19
+msgid "Team"
+msgstr ""
+
+#: views/settings.php:33
+msgid "Connect Site"
+msgstr ""
+
+#: views/settings/select.php:2
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: views/sidebar.php:9
+msgid "Request support"
+msgstr ""
+
+#: views/sidebar.php:12
+msgid "Download Diagnostic Data"
+msgstr ""
+
+#: views/sidebar.php:15
+msgid "Please attach the diagnostic log with a support request."
+msgstr ""
+
+#: views/site.php:27 views/site.php:29
+msgid "Apply Changeset"
+msgstr ""
